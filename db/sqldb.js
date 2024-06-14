@@ -1,6 +1,5 @@
-const { Pool } = require('pg');
+const Pool = require('pg');
 
-// Настройки подключения к базе данных
 const pool = new Pool({
   user: 'cashr',
   host: 'localhost',
